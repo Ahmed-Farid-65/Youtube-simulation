@@ -1,0 +1,59 @@
+.watch-page .card {
+    transform: translateY(0%);
+}
+
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+
+.watch-page #more{
+    display: none;
+}
+.watch-page #myBtn {
+    margin-bottom: 60px!important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.card-inner {
+    display: none;
+}
+
+.public-comments .card .btn {
+    color: #fff;
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+}
+.public-comments .card .btn:hover {
+    background-color: #e686e6;
+}
+
+time {
+    left: 18px;
+    bottom: 3px;
+}
+.card .fa-play {
+    top: 37%;
+    right: 45%;
+}
+
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+    .fa-play {
+        font-size: 20px;
+    }
+}
+@media (max-width: 570px) {
+    .reply {
+        font-size: 10px;
+    }
+}
